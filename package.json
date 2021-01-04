@@ -1,0 +1,44 @@
+{
+  "name": "x-cloud-cli",
+  "version": "0.1.0",
+  "description": "a cli for definesys x-cloud team",
+  "author": "yutian.shi",
+  "license": "UNLICENSED",
+  "keywords": [
+    "scaffold",
+    "x-cloud",
+    "vue",
+    "cli"
+  ],
+  "engines": {
+    "node": ">=8.9",
+    "npm": ">=5.8"
+  },
+  "bin": {
+    "x-cloud-cli": "./bin/index.js"
+  },
+  "scripts": {},
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chalk": "^2.4.2",
+    "child_process": "^1.0.2",
+    "commander": "^2.19.0",
+    "download-git-repo": "^3.0.2",
+    "handlebars": "^4.1.2",
+    "ini": "^1.3.5",
+    "inquirer": "^6.2.2",
+    "metalsmith": "^2.3.0",
+    "ora": "^5.2.0",
+    "request": "^2.88.0",
+    "rimraf": "^2.6.3",
+    "semver": "^6.0.0",
+    "shelljs": "^0.8.4",
+    "user-home": "^2.0.0"
+  },
+  "files": [
+    "bin",
+    "dist",
+    "README.md"
+  ]
+}
